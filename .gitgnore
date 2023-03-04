@@ -1,0 +1,17 @@
+# Arquivos objeto em Assembly
+*.o
+
+# Arquivos de ligação em Assembly
+*.out
+
+# Arquivos temporários em Assembly
+*.tmp
+
+# Arquivos de listagem em Assembly
+*.lst
+
+# Arquivos gerados pelo linker em Assembly
+*.map
+
+# Arquivos gerados pelo compilador em Assembly
+*.lst
