@@ -7,7 +7,7 @@ section .data
     len equ $-msg
 Esta seção define uma seção de dados, que contém a mensagem a ser exibida. A linha msg db "Hello, world!",0xa define uma variável chamada msg 
 que contém a string "Hello, world!" seguida do caractere de nova linha (0xa). O db significa "define byte", o que indica que o compilador deve 
-armazenar cada caractere da string em um byte de memória. A linha len equ $-msg define uma constante chamada len que representa o comprimento da string.
+armazenar cada caractere da string em um byte de memória. A linha *len eq* *$-msg* define uma constante chamada len que representa o comprimento da string.
 A expressão $-msg significa "o endereço atual menos o endereço de msg", o que resulta no número de bytes entre o endereço atual e o endereço da primeira letra da string.
 
 assembly
